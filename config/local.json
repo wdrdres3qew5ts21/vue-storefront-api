@@ -126,7 +126,8 @@
     "mailchimp-subscribe",
     "example-magento-api",
     "cms-data",
-    "mail-service"
+    "mail-service",
+    "backend-api"
   ],
   "extensions": {
     "mailchimp": {
@@ -158,10 +159,10 @@
     "httpUserPassword": "",
     "api": {
       "url": "http://localhost/rest",
-      "consumerKey": "in5ht2lpjp5a5nasphduo9c9j628nuep",
-      "consumerSecret": "z8ejsrgarlk5vqlo9gtjp4z8xso3e4h5",
-      "accessToken": "35wvzoegeltfzt38b6zcqrxwpywrzie3",
-      "accessTokenSecret": "nw59lpq5m8nr04wq802lwamemstqy81c"
+      "consumerKey": "uzwfq9oqavab5gl7zuzxky9wfhxq1q5h",
+      "consumerSecret": "842lq1dbmzrjfsc3l69b4p6h2d475bzd",
+      "accessToken": "l5tf5n1mhzyeu6le2ajucjip5c4nouqn",
+      "accessTokenSecret": "pk5hliy0as01du6dpd65fnh9f6tvo2d0"
     }
   },
   "imageable": {
