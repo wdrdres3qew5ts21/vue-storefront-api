@@ -126,7 +126,8 @@
     "mailchimp-subscribe",
     "example-magento-api",
     "cms-data",
-    "mail-service"
+    "mail-service",
+    "backend-api"
   ],
   "extensions": {
     "mailchimp": {
