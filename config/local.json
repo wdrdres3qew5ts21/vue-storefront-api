@@ -18,7 +18,7 @@
     "password": "changeme",
     "min_score": 0.01,
     "indices": [
-      "vue_storefront_catalog",
+      "vue_storefront_catalog_1",
       "vue_storefront_catalog_de",
       "vue_storefront_catalog_it"
     ],
@@ -158,10 +158,10 @@
     "httpUserPassword": "",
     "api": {
       "url": "http://localhost/rest",
-      "consumerKey": "in5ht2lpjp5a5nasphduo9c9j628nuep",
-      "consumerSecret": "z8ejsrgarlk5vqlo9gtjp4z8xso3e4h5",
-      "accessToken": "35wvzoegeltfzt38b6zcqrxwpywrzie3",
-      "accessTokenSecret": "nw59lpq5m8nr04wq802lwamemstqy81c"
+      "consumerKey": "jd45lx7802y30yg4i81nvrmft8qw2qy9",
+      "consumerSecret": "3ug7invp27nhy0s0dmus9pmbh0n2ne7l",
+      "accessToken": "nolpn1bee6w5foh5yqndjf1c3dn5kwz2",
+      "accessTokenSecret": "wcqk3ngtqb67klmz4ads7mmnn2f7f93c"
     }
   },
   "imageable": {
