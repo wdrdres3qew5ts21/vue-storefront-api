@@ -6,8 +6,9 @@ module.exports = ({ config }) => {
   let backApi = Router();
 
   backApi.get("/product", async (req, res) => {
-    const { data } = await axios.get("http://localhost:3001/items");
-    apiStatus(res, data, 200);
+    let {data} = await axios.get("https://a6be717e-eca1-4702-8a43-0e58e5b88921.mock.pstmn.io/items")
+
+    apiStatus(res, data, 200)
   });
 
   return backApi;

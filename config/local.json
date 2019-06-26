@@ -159,10 +159,10 @@
     "httpUserPassword": "",
     "api": {
       "url": "http://localhost/rest",
-      "consumerKey": "jd45lx7802y30yg4i81nvrmft8qw2qy9",
-      "consumerSecret": "3ug7invp27nhy0s0dmus9pmbh0n2ne7l",
-      "accessToken": "nolpn1bee6w5foh5yqndjf1c3dn5kwz2",
-      "accessTokenSecret": "wcqk3ngtqb67klmz4ads7mmnn2f7f93c"
+      "consumerKey": "h47ga8d2tt54p7rtyjpl2yyd20rqpw54",
+      "consumerSecret": "ud1ohhqmlzyeeisbgwczltiy76vv112m",
+      "accessToken": "o7yf01h79cbuq2bvxgri26younxp9ali",
+      "accessTokenSecret": "o4o1y3cvrsxo96ncx6z3ww50hvxrgc38"
     }
   },
   "imageable": {
