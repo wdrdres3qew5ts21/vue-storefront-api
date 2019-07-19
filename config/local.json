@@ -18,7 +18,7 @@
     "password": "changeme",
     "min_score": 0.01,
     "indices": [
-      "vue_storefront_catalog_1",
+      "vue_storefront_catalog",
       "vue_storefront_catalog_de",
       "vue_storefront_catalog_it"
     ],
@@ -123,11 +123,11 @@
   ],
   "platform": "magento2",
   "registeredExtensions": [
+    "backend-api",
     "mailchimp-subscribe",
     "example-magento-api",
     "cms-data",
-    "mail-service",
-    "backend-api"
+    "mail-service"
   ],
   "extensions": {
     "mailchimp": {
@@ -159,10 +159,10 @@
     "httpUserPassword": "",
     "api": {
       "url": "http://localhost/rest",
-      "consumerKey": "h47ga8d2tt54p7rtyjpl2yyd20rqpw54",
-      "consumerSecret": "ud1ohhqmlzyeeisbgwczltiy76vv112m",
-      "accessToken": "o7yf01h79cbuq2bvxgri26younxp9ali",
-      "accessTokenSecret": "o4o1y3cvrsxo96ncx6z3ww50hvxrgc38"
+      "consumerKey": "m8vu111hswxvsr309dlo8ht6x3045n8w",
+      "consumerSecret": "g0btktkk1hn20otevgawbzyfiw8hz902",
+      "accessToken": "p87qdsns4ewporzc0wtxnv87upiidqnw",
+      "accessTokenSecret": "5ol096mdv3jk2qweaceupsp5k16aojv1"
     }
   },
   "imageable": {

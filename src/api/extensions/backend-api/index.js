@@ -3,10 +3,12 @@ import { Router } from "express";
 import axios from "axios";
 
 module.exports = ({ config }) => {
+  
   let backApi = Router();
 
-  backApi.get("/product", async (req, res) => {
-    let {data} = await axios.get("https://a6be717e-eca1-4702-8a43-0e58e5b88921.mock.pstmn.io/items")
+  backApi.get("/collections", async (req, res) => {
+    //let {data} = await axios.get("https://a6be717e-eca1-4702-8a43-0e58e5b88921.mock.pstmn.io/items")
+    let {data} = await axios.get("http://localhost:3001/items")
 
     apiStatus(res, data, 200)
   });
