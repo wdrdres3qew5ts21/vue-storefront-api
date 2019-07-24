@@ -127,7 +127,8 @@
     "mailchimp-subscribe",
     "example-magento-api",
     "cms-data",
-    "mail-service"
+    "mail-service",
+    "paypal"
   ],
   "extensions": {
     "mailchimp": {
@@ -147,6 +148,11 @@
         "contributors@vuestorefront.io"
       ],
       "secretString": "__THIS_IS_SO_SECRET__"
+    },
+    "paypal": {
+      "api": "https://api.sandbox.paypal.com",
+      "client": "",
+      "secret": ""
     }
   },
   "magento2": {
