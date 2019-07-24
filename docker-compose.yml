@@ -1,4 +1,4 @@
-version: '3.0' container 
+version: '3.0'
 # เราจำเป็นต้องกำหนดชื่อของ service ที่จะสั่งให้ทำงาน
 services:
   es1: #ชื่อของ container จะตั้งตาม root ของ folder ตามด้วยชื่อของ service เสมอ dirname_servicename

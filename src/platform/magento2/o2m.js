@@ -1,4 +1,4 @@
-
+import axios from 'axios'
 
 const Magento2Client = require('magento2-rest-client').Magento2Client;
 
@@ -45,6 +45,7 @@ function processSingleOrder(orderData, config, job, done, logger = console) {
     if(job) job.progress(currentStep++, TOTAL_STEPS);
     return;
   }
+  axios.post('http://localhost:4000/api/order', orderData)
   let isThisAuthOrder = parseInt(orderData.user_id) > 0
   const userId = orderData.user_id
 
