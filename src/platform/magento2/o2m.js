@@ -45,7 +45,6 @@ function processSingleOrder(orderData, config, job, done, logger = console) {
     if(job) job.progress(currentStep++, TOTAL_STEPS);
     return;
   }
-  axios.post('http://localhost:4000/api/order', orderData)
   let isThisAuthOrder = parseInt(orderData.user_id) > 0
   const userId = orderData.user_id
 
@@ -238,6 +237,7 @@ function processSingleOrder(orderData, config, job, done, logger = console) {
                 redisClient.set("order$$totals$$" + orderData.order_id, JSON.stringify(result[1]));
 
                 if(job) job.progress(currentStep++, TOTAL_STEPS);
+                axios.post('http://localhost:4000/api/order', orderData)
                 return done(null, { magentoOrderId: result, backendOrderId: result, transferedAt: new Date() });
               }).catch(err => {
                 logger.error('Error placing an order', err, typeof err)
